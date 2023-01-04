@@ -86,9 +86,9 @@ Nodes in TouchDesigner are called Operators. There are different types of Operat
 
 ### Working with Operators
 
-**Adding OPs** OP Create Dialog
-
 ---
+
+**Adding OPs** OP Create Dialog
 
 ![OP Create Dialog](./images/operatrs-create.gif)
 It gives you access to all the operator types, just click on a name and then click anywhere on a Network Editor Pane to place it in the network.
@@ -103,9 +103,9 @@ Select the Operator Family from the headings COMP TOP CHOP SOP MAT DAT.
 
 You can start typing the name of the OP type you are looking for. Any OP-type that matches the string you’ve typed will highlight in white. For example, type midi and all the OP types starting with midi will turn white.
 
-**Settings Operator Parametes**
-
 ---
+
+**Settings Operator Parameters**
 
 **Paramters** show all the possible settings of an Operator. As we see later those Parameters can be modified with **Links**. Parameters can be toggles with the hotkey _p_.
 
@@ -113,9 +113,9 @@ Parameters can be reset by either right clicking on the Operator and select _Res
 
 ![Operator Parameters](./images/operators-parameters.gif)
 
-**Connecting OPs**
-
 ---
+
+**Connecting OPs**
 
 There are two possible ways to connect Operators. By **Wires** and by **Links**.
 
@@ -137,4 +137,35 @@ The most common way to create a **Link** is a python expression from an Operator
 
 https://docs.derivative.ca/Link
 
-## Some useful Links
+### Operator Snippets
+
+Operator Snippets are a great collections of samples provided by Derivative. If you need examples for an Operator try first to check the Operator Snippets. Unfortunately there is not an example for every Operator.
+
+To open the Operator Snippets right click on an Operator and select Operator Snippets.
+
+Your can also open Operator Snippets via the Help Menu.
+
+![Operator Snippets](./images/operator-snippets.gif)
+
+## Some useful Shortcuts
+
+**U** Up in the Network
+
+**I** In a Network
+
+Both also works by scrolling in and out a Network
+
+![Jump Networks](./images/jumo-in-out-network.gif)
+
+**H** Home Everything, also works in Viewers **important**
+
+**Shift + H** Home selected Operators
+
+![Home Network](./images/homing.gif)
+
+**A** Activate a Viewer
+
+![Activate Viewer](./images/activating-viewer.gif)
+
+Here is also a Cheat Sheet with more Shortcuts:
+![Shortcut Cheatsheet](./images/cheat-sheet.png)
