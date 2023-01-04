@@ -54,4 +54,78 @@ First a little overview about the basics:
 
 ![Interface Overview](./images/interface.png)
 
-###
+### Interaction
+
+**Pan**
+![Pan Around](./images/interface-pan.gif)
+By clicking with the left mouse into the network you you pan the network around
+
+**Zoom**
+![Zoom](./images/interface-zoom.gif)
+Too zoom, either use the scrollwheel or option + right click
+
+**Select**
+![Select](./images/interface-select.gif)
+To select use the right mouse
+
+## Operators
+
+Nodes in TouchDesigner are called Operators. There are different types of Operators in TouchDesigner:
+
+**TOPS**: Texture Operators are 2D Shaders on the GPU and can operate on Textures.
+
+**CHOPS**: Channel Operators process values. Every channel can consist out of 1 - n samples.
+
+**SOPS**: Surface Operators work with 3D Geometry
+
+**DATS**: Data Operators are text based Nodes, mainly for scripting (python)
+
+**MATS**: Materials modify the shading of a 3D Geometry
+
+**COMPS**: Components do have different functionalities. They can host networks, build UIs or have special functions.
+
+### Working with Operators
+
+**Adding OPs** OP Create Dialog
+![OP Create Dialog](./images/operatrs-create.gif)
+It gives you access to all the operator types, just click on a name and then click anywhere on a Network Editor Pane to place it in the network.
+
+Select the Operator Family from the headings COMP TOP CHOP SOP MAT DAT.
+
+**Generators** (types with no inputs) are shown using a darker shade, and **Filters** are the lighter shade of the OP color.
+
+**Generators** Produces values oand therefore only have outputs.
+
+**Filters** manipulate values und therefore have input and outputs.
+
+You can start typing the name of the OP type you are looking for. Any OP-type that matches the string you’ve typed will highlight in white. For example, type midi and all the OP types starting with midi will turn white.
+
+**Operator Parametes** show all the possible settings of an Operator. As we see later those Parameters can be modified with **Links**. Parameters can be toggles with the hotkey _p_.
+
+Parameters can be reset by either right clicking on the Operator and select _Reset all Parameters_ or by right clicking on the parameter to reset it individually.
+
+![Operator Parameters](./images/operators-parameters.gif)
+
+**Connecting OPs**
+
+There are two possible ways to connect Operators. By **Wires** and by **Links**.
+
+**Wires** only work within a OP Family and can only be used from an output ( source ) of a node to an input ( sink ) of a node. Wires have the same color as the Operator Family.
+
+![Operator Wires](./images/operators-wires.gif)
+
+Mostly all inputs of a Node do have different purposes. The top most input is the most important though.
+
+( the inputs of the trail node in this example do all have the same function, which is rather rare in TouchDesigner. )
+
+https://docs.derivative.ca/Wire
+
+**Links** are the second way to connect Operators. They are by far more complex and can be used to either modify parameters of an Operator oder reference another Operator. For parameters this also works across Operator Families while for referencing this only works within a family.
+
+The most common way to create a **Link** is a python expression from an Operators Viewer. To do that it is recommended to connect the Operator to a "Null" Operator first and then toggle the Viewer of an Operator active to export the **Link**.
+
+![Operator Links](./images/operator-links.gif)
+
+https://docs.derivative.ca/Link
+
+## Some useful Links
