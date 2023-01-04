@@ -87,6 +87,9 @@ Nodes in TouchDesigner are called Operators. There are different types of Operat
 ### Working with Operators
 
 **Adding OPs** OP Create Dialog
+
+---
+
 ![OP Create Dialog](./images/operatrs-create.gif)
 It gives you access to all the operator types, just click on a name and then click anywhere on a Network Editor Pane to place it in the network.
 
@@ -100,13 +103,19 @@ Select the Operator Family from the headings COMP TOP CHOP SOP MAT DAT.
 
 You can start typing the name of the OP type you are looking for. Any OP-type that matches the string you’ve typed will highlight in white. For example, type midi and all the OP types starting with midi will turn white.
 
-**Operator Parametes** show all the possible settings of an Operator. As we see later those Parameters can be modified with **Links**. Parameters can be toggles with the hotkey _p_.
+**Settings Operator Parametes**
+
+---
+
+**Paramters** show all the possible settings of an Operator. As we see later those Parameters can be modified with **Links**. Parameters can be toggles with the hotkey _p_.
 
 Parameters can be reset by either right clicking on the Operator and select _Reset all Parameters_ or by right clicking on the parameter to reset it individually.
 
 ![Operator Parameters](./images/operators-parameters.gif)
 
 **Connecting OPs**
+
+---
 
 There are two possible ways to connect Operators. By **Wires** and by **Links**.
 
