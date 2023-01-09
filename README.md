@@ -1,6 +1,6 @@
-# TouchDesigner Workshop
+# TouchDesigner Introduction Course
 
-Welcome to my TouchDesigner Workshop. In this course you will be learning some basic functionality of TouchDesigner.
+Welcome to my TouchDesigner Course. In this course you will be learning some basic functionality of TouchDesigner.
 
 TouchDesigner is a node based visual programming interface. So "apps" are not written with code, but by connecting nodes with each other. It already ships with a lot of functionality. There are nodes for common media communication protocols as well as a powerful 3D Rendering Pipeline.
 
