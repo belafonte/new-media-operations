@@ -36,6 +36,8 @@ Here are some useful links:
 
 [TouchDesigner Forum](https://forum.derivative.ca)
 
+[Common Operations - Matthew Ragan ](https://matthewragan.com/teaching-resources/touchdesigner/touchdesigner-common-operations-cheat-sheet/)
+
 ## The Interface
 
 The Interface of TouchDesigner maybe looks a little antique, but has some very useful features like drag and drop etc.
@@ -167,5 +169,6 @@ Both also works by scrolling in and out a Network
 
 ![Activate Viewer](./images/activating-viewer.gif)
 
-Here is also a Cheat Sheet with more Shortcuts:
+### Here is also a Cheat Sheet with more Shortcuts
+
 ![Shortcut Cheatsheet](./images/cheat-sheet.png)
